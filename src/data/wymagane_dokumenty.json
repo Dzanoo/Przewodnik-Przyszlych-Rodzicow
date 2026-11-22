@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "opis": "Wymagane wnioski i dokumenty dla scenariuszy kalkulatora zasiłku macierzyńskiego",
+    "zrodla": [
+      "Rozporządzenie MRPiPS z 11.03.2025 w sprawie wniosków dotyczących uprawnień pracowników związanych z rodzicielstwem (Dz.U. 2025 poz. 322), obowiązuje od 19.03.2025",
+      "Kodeks pracy, tekst jednolity z 1.09.2026 (Dz.U. 2026 poz. 1245), art. 180–183",
+      "Poradnik ZUS dla rodziców i opiekunów dzieci, stan prawny na 1.04.2026",
+      "Opis wyzwania HackNation 2026 (ZUS): od 24.10.2026 formularze ZUR i ZAO połączono z ZAM, Z-3b zlikwidowano"
+    ],
+    "zasady_ogolne": [
+      "Wnioski pracownika składa się pracodawcy w postaci papierowej lub elektronicznej.",
+      "Dokumentów, które są już w aktach osobowych pracownika, nie trzeba dołączać ponownie (§ 22).",
+      "Można dołączyć kopię dokumentu; pracodawca może zażądać okazania oryginału (§ 23).",
+      "Zagraniczny akt urodzenia dołącza się z tłumaczeniem na język polski, chyba że został wydany w państwie UE, EFTA/EOG, w Szwajcarii albo w państwie, z którym Polska ma umowę o zabezpieczeniu społecznym, w języku urzędowym tego państwa (§ 21).",
+      "Rozporządzenie dotyczy tylko pracowników. Zleceniobiorcy i przedsiębiorcy składają wnioski w ZUS albo u płatnika składek (patrz scenariusze 'nie_pracownik_*')."
+    ]
+  },
+
+  "dokumenty": {
+    "akt_urodzenia": {
+      "nazwa": "Odpis skrócony aktu urodzenia dziecka (dzieci) albo zagraniczny dokument potwierdzający urodzenie, albo ich kopia",
+      "uwagi": "Przy wniosku do ZUS można zamiast tego poprosić, by ZUS sam pobrał odpis z rejestru stanu cywilnego."
+    },
+    "akt_urodzenia_martwe_dziecko": {
+      "nazwa": "Odpis skrócony aktu urodzenia dziecka z adnotacją, że dziecko urodziło się martwe, a jeśli aktu urodzenia nie sporządzono – zaświadczenie o martwym urodzeniu wydane na podstawie dokumentacji medycznej przez lekarza ze specjalizacją (albo w trakcie specjalizacji) z położnictwa i ginekologii lub przez położną; albo kopie tych dokumentów",
+      "uwagi": "Kopię może potwierdzić za zgodność z oryginałem ubezpieczona, płatnik składek albo ZUS (poradnik ZUS, s. 33)."
+    },
+    "zaswiadczenie_termin_porodu": {
+      "nazwa": "Zaświadczenie lekarskie (zwykły druk) określające przewidywaną datę porodu – kopia"
+    },
+    "zaswiadczenie_szpital_dziecko": {
+      "nazwa": "Zaświadczenie ze szpitala o okresie pobytu dziecka oraz o tygodniu ciąży, w którym się urodziło, lub o jego masie urodzeniowej",
+      "podstawa": "art. 180² § 5 KP"
+    },
+    "oswiadczenie_drugi_rodzic_brak_uzupelniajacego": {
+      "nazwa": "Oświadczenie, że drugi z rodziców nie zamierza korzystać z uzupełniającego urlopu macierzyńskiego ani z zasiłku za ten okres"
+    },
+    "oswiadczenie_drugi_rodzic_rodzicielski": {
+      "nazwa": "Oświadczenie, że drugi z rodziców nie zamierza korzystać z urlopu rodzicielskiego (ani zasiłku za ten okres) we wskazanym okresie, albo o okresie, w którym zamierza z niego korzystać"
+    },
+    "zaswiadczenie_za_zyciem": {
+      "nazwa": "Kopia zaświadczenia „Za życiem” (art. 4 ust. 3 ustawy z 4.11.2016 o wsparciu kobiet w ciąży i rodzin „Za życiem”)"
+    },
+    "dokumenty_przyjecia_dziecka": {
+      "nazwa": "Oświadczenie o dacie przyjęcia dziecka na wychowanie oraz jeden z dokumentów: kopia wniosku o wszczęcie postępowania o przysposobienie z poświadczeniem sądu opiekuńczego o dacie wystąpienia, zaświadczenie sądu opiekuńczego o dacie wystąpienia o przysposobienie (oba z datą urodzenia dziecka), kopia prawomocnego orzeczenia o umieszczeniu dziecka w rodzinie zastępczej albo kopia umowy rodziny zastępczej ze starostą"
+    },
+    "decyzja_odroczenie_obowiazku_szkolnego": {
+      "nazwa": "Kopia prawomocnej decyzji o odroczeniu obowiązku szkolnego",
+      "warunek": "dziecko z odroczonym obowiązkiem szkolnym (granica wieku 10 zamiast 7 lat)"
+    },
+    "postanowienie_przysposobienie": {
+      "nazwa": "Kopia prawomocnego postanowienia sądu o przysposobieniu dziecka"
+    },
+    "oswiadczenie_ojca_urlop_ojcowski": {
+      "nazwa": "Oświadczenie ojca, czy korzystał już z urlopu ojcowskiego albo jego części"
+    },
+    "orzeczenie_niezdolnosc_matki": {
+      "nazwa": "Kopia prawomocnego orzeczenia o niezdolności matki do samodzielnej egzystencji"
+    },
+    "wniosek_lub_oswiadczenie_ojca_przejecie": {
+      "nazwa": "Kopia wniosku ojca (lub innego członka najbliższej rodziny) o udzielenie pozostałej części urlopu macierzyńskiego albo kopia oświadczenia ubezpieczonego ojca (członka rodziny) o przerwaniu działalności zarobkowej w celu opieki nad dzieckiem"
+    },
+    "oswiadczenie_matki_rezygnacja": {
+      "nazwa": "Oświadczenie matki o zamiarze rezygnacji z pozostałej części urlopu macierzyńskiego albo z pobierania zasiłku macierzyńskiego za ten okres"
+    },
+    "oswiadczenie_matki_szpital": {
+      "nazwa": "Oświadczenie matki przebywającej w szpitalu, od kiedy przerwała urlop macierzyński (albo pobieranie zasiłku) na czas pobytu"
+    },
+    "zaswiadczenie_przyjecie_matki_szpital": {
+      "nazwa": "Zaświadczenie szpitala (zakładu leczniczego) o terminie przyjęcia matki"
+    },
+    "oswiadczenie_matki_zatrudnienie": {
+      "nazwa": "Oświadczenie matki o dacie podjęcia zatrudnienia na co najmniej ½ etatu"
+    },
+    "zus_zam": {
+      "nazwa": "Wniosek o zasiłek macierzyński – druk ZUS ZAM",
+      "uwagi": "Najwygodniej przez eZUS. Od 24.10.2026 ZAM obejmuje też zasiłek za urlop rodzicielski i ojcowski (zastąpił formularze ZUR i ZAO)."
+    }
+  },
+
+  "scenariusze": [
+    {
+      "id": "pracownik_macierzynski_przed_porodem",
+      "nazwa": "Część urlopu macierzyńskiego przed porodem (do 6 tygodni)",
+      "dotyczy": "pracownica",
+      "podstawa": "art. 180 § 2 KP; § 2 rozporządzenia",
+      "termin_wniosku": "co najmniej 14 dni przed planowanym rozpoczęciem urlopu (poradnik ZUS)",
+      "pola_wniosku": ["imię i nazwisko", "data rozpoczęcia urlopu"],
+      "dokumenty": ["zaswiadczenie_termin_porodu"]
+    },
+    {
+      "id": "pracownik_macierzynski_po_porodzie",
+      "nazwa": "Urlop macierzyński / zasiłek po porodzie",
+      "dotyczy": "pracownica",
+      "podstawa": "poradnik ZUS, „Jak otrzymać zasiłek – pracownicy”",
+      "termin_wniosku": "wybór wariantu uśrednionego (81,5%): wniosek lub deklaracja w ciągu 21 dni od porodu",
+      "pola_wniosku": ["wariant zasiłku (uśredniony / zmienny)"],
+      "dokumenty": ["akt_urodzenia"],
+      "uwagi": "Akt urodzenia wystarczy okazać pracodawcy do wglądu. U małego płatnika można zamiast tego wnioskować, by ZUS pobrał odpis sam."
+    },
+    {
+      "id": "pracownik_rezygnacja_po_14_tyg",
+      "nazwa": "Matka rezygnuje z reszty urlopu macierzyńskiego po 14 tygodniach i wraca do pracy",
+      "dotyczy": "pracownica",
+      "podstawa": "art. 180 § 4 i § 8 KP; § 3 rozporządzenia",
+      "termin_wniosku": "co najmniej 7 dni przed powrotem do pracy",
+      "pola_wniosku": ["imię i nazwisko", "termin powrotu do pracy"],
+      "dokumenty": ["wniosek_lub_oswiadczenie_ojca_przejecie"]
+    },
+    {
+      "id": "pracownik_rezygnacja_niezdolnosc_po_8_tyg",
+      "nazwa": "Matka z orzeczeniem o niezdolności do samodzielnej egzystencji rezygnuje po 8 tygodniach",
+      "dotyczy": "pracownica",
+      "podstawa": "art. 180 § 6 i § 8 KP; § 4 rozporządzenia",
+      "termin_wniosku": "co najmniej 7 dni przed powrotem do pracy",
+      "pola_wniosku": ["imię i nazwisko", "termin powrotu do pracy"],
+      "dokumenty": ["wniosek_lub_oswiadczenie_ojca_przejecie", "orzeczenie_niezdolnosc_matki"]
+    },
+    {
+      "id": "ojciec_przejecie_po_rezygnacji",
+      "nazwa": "Ojciec (lub inny członek najbliższej rodziny) przejmuje resztę urlopu macierzyńskiego po rezygnacji matki",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 4, 5, 6, 7, 9 KP; § 5 rozporządzenia",
+      "termin_wniosku": "co najmniej 14 dni przed rozpoczęciem korzystania z urlopu",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "imię, nazwisko i data urodzenia dziecka",
+        "okres urlopu macierzyńskiego (lub zasiłku) wykorzystanego przez matkę przed porodem",
+        "okres, na który ma być udzielona pozostała część urlopu"
+      ],
+      "dokumenty": ["akt_urodzenia", "oswiadczenie_matki_rezygnacja"]
+    },
+    {
+      "id": "ojciec_przejecie_matka_w_szpitalu",
+      "nazwa": "Ojciec (lub członek rodziny) przejmuje urlop na czas pobytu matki w szpitalu (po co najmniej 8 tygodniach)",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 10, 11, 16 KP; § 6 (matka pracownica) i § 7 (matka ubezpieczona, niebędąca pracownicą) rozporządzenia",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "data, od której ma być udzielona część urlopu (= data przerwania urlopu / zasiłku przez matkę)",
+        "okres urlopu (lub zasiłku) wykorzystanego przez matkę przed porodem",
+        "zobowiązanie do poinformowania pracodawcy o dacie wyjścia matki ze szpitala"
+      ],
+      "dokumenty": ["oswiadczenie_matki_szpital", "zaswiadczenie_przyjecie_matki_szpital", "akt_urodzenia"]
+    },
+    {
+      "id": "ojciec_przejecie_zgon_matki",
+      "nazwa": "Ojciec (lub członek rodziny) przejmuje urlop po zgonie matki w trakcie urlopu / zasiłku macierzyńskiego",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 12 i 16 KP; § 8 rozporządzenia",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "data zgonu matki (oświadczenie)",
+        "okres urlopu (lub zasiłku) wykorzystanego przez matkę przed porodem",
+        "data, od której ma być udzielona część urlopu"
+      ],
+      "dokumenty": ["akt_urodzenia"]
+    },
+    {
+      "id": "ojciec_przejecie_porzucenie",
+      "nazwa": "Ojciec (lub członek rodziny) przejmuje urlop po porzuceniu dziecka przez matkę (po co najmniej 8 tygodniach)",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 13 i 16 KP; § 9 rozporządzenia",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "data porzucenia dziecka (oświadczenie)",
+        "okres urlopu (lub zasiłku) wykorzystanego przez matkę przed porodem",
+        "data, od której ma być udzielona część urlopu (nie wcześniej niż po 8 tygodniach od porodu)"
+      ],
+      "dokumenty": ["akt_urodzenia"]
+    },
+    {
+      "id": "ojciec_matka_nieubezpieczona_zgon",
+      "nazwa": "Zgon matki nieobjętej ubezpieczeniem chorobowym",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 15 pkt 1 KP; § 10 rozporządzenia",
+      "pola_wniosku": ["imię i nazwisko", "dzień zgonu matki (oświadczenie)", "data, od której ma być udzielona część urlopu"],
+      "dokumenty": ["akt_urodzenia"]
+    },
+    {
+      "id": "ojciec_matka_nieubezpieczona_porzucenie",
+      "nazwa": "Porzucenie dziecka przez matkę nieobjętą ubezpieczeniem chorobowym",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 15 pkt 2 KP; § 11 rozporządzenia",
+      "pola_wniosku": ["imię i nazwisko", "dzień porzucenia dziecka (oświadczenie)", "data, od której ma być udzielona część urlopu"],
+      "dokumenty": ["akt_urodzenia"]
+    },
+    {
+      "id": "ojciec_matka_nieubezpieczona_niezdolnosc",
+      "nazwa": "Matka nieobjęta ubezpieczeniem z orzeczeniem o niezdolności do samodzielnej egzystencji",
+      "dotyczy": "pracownik – ojciec / inny członek rodziny",
+      "podstawa": "art. 180 § 15 pkt 3 KP; § 12 rozporządzenia",
+      "pola_wniosku": ["imię i nazwisko", "data, od której ma być udzielona część urlopu"],
+      "dokumenty": ["akt_urodzenia", "orzeczenie_niezdolnosc_matki"]
+    },
+    {
+      "id": "ojciec_matka_nieubezpieczona_podejmuje_prace",
+      "nazwa": "Matka bez tytułu do ubezpieczenia podejmuje pracę na co najmniej ½ etatu",
+      "dotyczy": "pracownik – ojciec",
+      "podstawa": "art. 180 § 17 KP; § 13 rozporządzenia",
+      "termin_wniosku": "co najmniej 14 dni przed rozpoczęciem korzystania z urlopu",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "data, od której ma być udzielona część urlopu (w okresie zatrudnienia matki)",
+        "zobowiązanie do poinformowania pracodawcy o ustaniu zatrudnienia matki"
+      ],
+      "dokumenty": ["akt_urodzenia", "oswiadczenie_matki_zatrudnienie"]
+    },
+    {
+      "id": "martwe_urodzenie_lub_zgon_do_8_tyg",
+      "nazwa": "Dziecko urodziło się martwe lub zmarło przed upływem 8 tygodni życia",
+      "dotyczy": "matka – pracownica albo ubezpieczona z innego tytułu (np. zleceniobiorczyni, przedsiębiorczyni); zasady są takie same",
+      "podstawa": "art. 180¹ § 1 KP; poradnik ZUS, „Zasiłek macierzyński, gdy dziecko urodzi się martwe lub po śmierci dziecka” (s. 33)",
+      "wymiar": "8 tygodni (56 dni) po porodzie, nie krócej jednak niż 7 dni od dnia zgonu dziecka",
+      "wysokosc_zasilku": "100% podstawy wymiaru",
+      "reguly_kalkulatora": [
+        "Koniec zasiłku = późniejsza z dat: koniec 8. tygodnia po porodzie albo 7. dzień od dnia zgonu dziecka.",
+        "Przy martwym urodzeniu data zgonu = data porodu, więc obowiązuje 8 tygodni.",
+        "Poród mnogi: wymiar ustala się według liczby dzieci pozostałych przy życiu (tabela 20/31/33/35/37 tygodni); jeżeli żadne dziecko nie przeżyło – 8 tygodni.",
+        "Nie wyświetlać urlopu rodzicielskiego, ojcowskiego ani wariantu 81,5%, chyba że przy porodzie mnogim przynajmniej jedno dziecko żyje."
+      ],
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "data porodu",
+        "data zgonu dziecka (jeśli urodziło się żywe)",
+        "liczba dzieci urodzonych przy jednym porodzie i liczba dzieci pozostałych przy życiu"
+      ],
+      "dokumenty": [],
+      "dokumenty_warunkowe": [
+        { "warunek": "dziecko urodziło się martwe", "dokumenty": ["akt_urodzenia_martwe_dziecko"] },
+        { "warunek": "dziecko urodziło się żywe i zmarło", "dokumenty": ["akt_urodzenia"] }
+      ],
+      "uwagi": "Przysługuje także zasiłek pogrzebowy (wniosek ZUS Z-12). Jeśli nie jesteś pracownicą, wniosek składasz u płatnika składek (np. zleceniodawcy) albo w ZUS (ZUS ZAM).",
+      "uwagi_interfejs": "Delikatny, rzeczowy język; bez grafik i kolorów kojarzonych z noworodkiem; nie pokazywać porównań kwot ani zachęt do kolejnych urlopów."
+    },
+    {
+      "id": "zgon_dziecka_po_8_tyg",
+      "nazwa": "Dziecko zmarło po upływie 8 tygodni życia (w trakcie urlopu / zasiłku macierzyńskiego)",
+      "dotyczy": "matka – pracownica albo ubezpieczona z innego tytułu; zasady są takie same",
+      "podstawa": "art. 180¹ § 2 KP; poradnik ZUS (s. 33)",
+      "wymiar": "zasiłek przysługuje jeszcze przez 7 dni od dnia zgonu dziecka",
+      "wysokosc_zasilku": "100% podstawy wymiaru (albo 81,5%, jeśli wybrano wariant uśredniony)",
+      "reguly_kalkulatora": [
+        "Koniec zasiłku = data zgonu + 7 dni (nie później niż koniec pierwotnego wymiaru urlopu).",
+        "Poród mnogi: wymiar ustala się według liczby dzieci pozostałych przy życiu, nie krócej jednak niż 7 dni od dnia zgonu."
+      ],
+      "pola_wniosku": ["imię i nazwisko", "data porodu", "data zgonu dziecka", "liczba dzieci pozostałych przy życiu"],
+      "dokumenty": ["akt_urodzenia"],
+      "uwagi": "Przysługuje także zasiłek pogrzebowy (wniosek ZUS Z-12).",
+      "uwagi_interfejs": "Jak w scenariuszu 'martwe_urodzenie_lub_zgon_do_8_tyg'."
+    },
+    {
+      "id": "pracownik_uzupelniajacy",
+      "nazwa": "Uzupełniający urlop macierzyński (wcześniak / dziecko hospitalizowane)",
+      "dotyczy": "pracownica albo pracownik – ojciec",
+      "podstawa": "art. 180² § 4–6 KP; § 14 rozporządzenia",
+      "termin_wniosku": "co najmniej 21 dni przed zakończeniem urlopu macierzyńskiego",
+      "pola_wniosku": ["imię i nazwisko", "termin zakończenia urlopu macierzyńskiego", "okres uzupełniającego urlopu"],
+      "dokumenty": ["zaswiadczenie_szpital_dziecko", "oswiadczenie_drugi_rodzic_brak_uzupelniajacego"],
+      "dokumenty_warunkowe": [
+        { "warunek": "dziecko przyjęte na wychowanie (adopcja / rodzina zastępcza)", "dokumenty": ["dokumenty_przyjecia_dziecka"] }
+      ]
+    },
+    {
+      "id": "pracownik_rodzicielski",
+      "nazwa": "Urlop rodzicielski lub jego część",
+      "dotyczy": "pracownik – rodzic dziecka",
+      "podstawa": "art. 182¹a, 182¹c, 182¹d KP; § 15 rozporządzenia",
+      "termin_wniosku": "co najmniej 21 dni przed rozpoczęciem urlopu",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "dotychczas wykorzystany urlop rodzicielski / zasiłek za ten okres",
+        "liczba wykorzystanych części (wliczając wnioski o zasiłek złożone przez rodzica, który nie jest pracownikiem)",
+        "okres, na który ma być udzielony urlop"
+      ],
+      "dokumenty": ["akt_urodzenia", "oswiadczenie_drugi_rodzic_rodzicielski"],
+      "dokumenty_warunkowe": [
+        { "warunek": "wydłużony urlop „Za życiem” (65 / 67 tygodni)", "dokumenty": ["zaswiadczenie_za_zyciem"] },
+        { "warunek": "dziecko przyjęte na wychowanie (adopcja / rodzina zastępcza)", "dokumenty": ["dokumenty_przyjecia_dziecka"] },
+        { "warunek": "odroczony obowiązek szkolny", "dokumenty": ["decyzja_odroczenie_obowiazku_szkolnego"] }
+      ]
+    },
+    {
+      "id": "pracownik_rodzicielski_z_praca",
+      "nazwa": "Łączenie urlopu rodzicielskiego z pracą (do ½ etatu)",
+      "dotyczy": "pracownik – rodzic dziecka",
+      "podstawa": "art. 182¹e–182¹f KP; § 16 rozporządzenia",
+      "termin_wniosku": "co najmniej 21 dni przed rozpoczęciem pracy; pracodawca może odmówić z przyczyn organizacyjnych (odpowiedź w ciągu 7 dni)",
+      "pola_wniosku": [
+        "imię i nazwisko",
+        "wymiar czasu pracy",
+        "okres łączenia urlopu z pracą",
+        "czy łączyć z pracą także tygodnie, o które urlop się wydłużył, i w jakim wymiarze"
+      ],
+      "dokumenty": []
+    },
+    {
+      "id": "pracownik_ojcowski",
+      "nazwa": "Urlop ojcowski (2 tygodnie)",
+      "dotyczy": "pracownik – ojciec",
+      "podstawa": "art. 182³ KP; § 17 rozporządzenia",
+      "termin_wniosku": "co najmniej 7 dni przed rozpoczęciem urlopu",
+      "pola_wniosku": ["imię i nazwisko", "okres urlopu"],
+      "dokumenty": ["akt_urodzenia", "oswiadczenie_ojca_urlop_ojcowski"],
+      "dokumenty_warunkowe": [
+        { "warunek": "dziecko przysposobione", "dokumenty": ["postanowienie_przysposobienie"] }
+      ]
+    },
+    {
+      "id": "pracownik_na_warunkach_macierzynskiego",
+      "nazwa": "Urlop na warunkach urlopu macierzyńskiego (adopcja / rodzina zastępcza niezawodowa)",
+      "dotyczy": "pracownik",
+      "podstawa": "art. 183 § 6 KP; § 18 rozporządzenia",
+      "termin_wniosku": "w ciągu 7 dni od przyjęcia dziecka; urlop zaczyna się najpóźniej 21 dni od przyjęcia",
+      "pola_wniosku": ["imię i nazwisko", "imię, nazwisko i data urodzenia dziecka", "okres urlopu"],
+      "dokumenty": ["dokumenty_przyjecia_dziecka"],
+      "dokumenty_warunkowe": [
+        { "warunek": "odroczony obowiązek szkolny", "dokumenty": ["decyzja_odroczenie_obowiazku_szkolnego"] }
+      ]
+    },
+    {
+      "id": "nie_pracownik_umowa_cywilnoprawna",
+      "nazwa": "Zasiłek macierzyński – zleceniobiorca",
+      "dotyczy": "zleceniobiorca z dobrowolnym ubezpieczeniem chorobowym",
+      "podstawa": "poradnik ZUS",
+      "pola_wniosku": [],
+      "dokumenty": ["akt_urodzenia"],
+      "dokumenty_warunkowe": [
+        { "warunek": "zasiłek przed porodem", "dokumenty": ["zaswiadczenie_termin_porodu"] }
+      ],
+      "uwagi": "Wniosek składa się u zleceniodawcy. Duży płatnik (21 i więcej zgłoszonych do ubezpieczenia chorobowego) wypłaca zasiłek sam, mały przekazuje wniosek do ZUS razem z zaświadczeniem płatnika Z-3a."
+    },
+    {
+      "id": "nie_pracownik_dzialalnosc",
+      "nazwa": "Zasiłek macierzyński – przedsiębiorca lub osoba współpracująca",
+      "dotyczy": "osoba prowadząca pozarolniczą działalność / osoba współpracująca",
+      "podstawa": "poradnik ZUS",
+      "pola_wniosku": [],
+      "dokumenty": ["akt_urodzenia", "zus_zam"],
+      "dokumenty_warunkowe": [
+        { "warunek": "zasiłek przed porodem", "dokumenty": ["zaswiadczenie_termin_porodu"] }
+      ],
+      "uwagi": "Wniosek ZAM składa się w ZUS (zaświadczenie płatnika Z-3b zlikwidowano 24.10.2026). Zasiłek przysługuje tylko wtedy, gdy zaległość w składkach nie przekracza 1% płacy minimalnej."
+    }
+  ],
+
+  "poza_zakresem_zasilku": [
+    {
+      "id": "urlop_wychowawczy",
+      "nazwa": "Urlop wychowawczy i obniżenie wymiaru czasu pracy zamiast niego",
+      "podstawa": "§ 19–20 rozporządzenia",
+      "uwagi": "Za urlop wychowawczy zasiłek macierzyński nie przysługuje. W aplikacji można go pokazać jako informację."
+    },
+    {
+      "id": "zasilek_pogrzebowy",
+      "nazwa": "Zasiłek pogrzebowy po urodzeniu martwego dziecka lub śmierci dziecka",
+      "podstawa": "poradnik ZUS (s. 33)",
+      "uwagi": "Pomoc w pokryciu kosztów pochówku, niezależna od zasiłku macierzyńskiego. W aplikacji pokazać jako informację w scenariuszach 'martwe_urodzenie_lub_zgon_do_8_tyg' i 'zgon_dziecka_po_8_tyg'."
+    }
+  ]
+}
